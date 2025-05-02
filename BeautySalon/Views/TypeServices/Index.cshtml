@@ -1,0 +1,44 @@
+﻿@model IEnumerable<BeautySalon.Data.TypeService>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Индекс</h1>
+
+<p>
+    <a asp-action="Create">Добавяне на ново</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @* @Html.DisplayNameFor(model => model.Name) *@
+                <label>Име</label>
+
+            </th>
+            <th>
+                @* @Html.DisplayNameFor(model => model.DateTimeRegister) *@
+                <label>Дата </label>
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateTimeRegister)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Редактиране</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Детайли</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Изтриване</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

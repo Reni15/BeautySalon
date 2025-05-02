@@ -1,0 +1,59 @@
+﻿@model BeautySalon.Data.Service
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Редактиране</h1>
+
+<h4>Услуга</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Name" class="control-label">Име</label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Price" class="control-label">Цена</label>
+                <input asp-for="Price" class="form-control" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TypeServicesId" class="control-label">Услуга</label>
+                <select asp-for="TypeServicesId" class="form-control" asp-items="ViewBag.TypeServicesId"></select>
+                <span asp-validation-for="TypeServicesId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label">Описание</label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="URLimages" class="control-label">Снимка</label>
+                <input asp-for="URLimages" class="form-control" />
+                <span asp-validation-for="URLimages" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DateRegister" class="control-label">Дата</label>
+                <input asp-for="DateRegister" class="form-control" />
+                <span asp-validation-for="DateRegister" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Запазване" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="IndexMakeUp">Връщане назад</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,51 @@
+﻿@model IEnumerable<BeautySalon.Data.Service>
+
+@{
+    ViewData["Title"] = "IndexMakeUp";
+}
+@if (User.IsInRole("Admin"))
+{
+    <a asp-action="Create">
+     Добавяне
+    </a>
+}
+
+<div class="self-grid">
+    @foreach (var item in Model)
+    {
+        <div class="card" style="width:30%; height:25%; ">
+            <div class="card-body">
+                <div class="card-img">
+                    <img src="@Html.DisplayFor(modelItem=>item.URLimages)" width="350" height="230" />
+                </div>
+                <br />
+                <h5 class="card-title">
+                    <b> @Html.DisplayFor(modelItem => item.Name)</b>
+                </h5>
+                <p class="card-subtitle">
+                    <b>  @Html.DisplayFor(modelItem => item.Price)лв</b>
+                </p>
+
+
+                @if (!User.IsInRole("Admin"))
+                {
+                        <div class="buttons">
+                            <form method="post" asp-controller="Reservations" asp-action="CreatePost" asp-route-serviceId="@item.Id">
+                            <a class="btn btn-primary" asp-action="Details" asp-route-serviceId="@item.Id">Детайли</a>
+                                <input type="submit" class="btn btn-primary" value="Резервирай" />
+                            </form> 
+                        </div>
+                }
+            </div>
+            @if (User.IsInRole("Admin"))
+            {
+                <a class="btn btn-primary" asp-action="Edit" asp-route-id="@item.Id">Редактиране</a>
+                <a class="btn btn-primary" asp-action="Delete" asp-route-id="@item.Id">Изтриване</a>
+                <a class="btn btn-primary" asp-action="Details" asp-route-id="@item.Id">Детайли</a>
+                <form method="post" asp-controller="Reservations" asp-action="CreatePost" asp-route-serviceId="@item.Id">
+                    <center><input type="submit" class="btn btn-primary" value="Резервирай" /></center>
+                </form>
+            }
+        </div>
+    }
+</div>

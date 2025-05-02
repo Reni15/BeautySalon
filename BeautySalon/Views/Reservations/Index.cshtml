@@ -1,0 +1,52 @@
+﻿@model IEnumerable<BeautySalon.Data.Reservation>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Резервации</h1>
+
+<p>
+    <a asp-action="Create">Добави</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @* @Html.DisplayNameFor(model => model.Users) *@
+                <label>Потребител</label>
+
+            </th>
+            <th>
+                @* @Html.DisplayNameFor(model => model.Services) *@
+                <label>Услуга</label>
+
+            </th>
+            <th>
+                @* @Html.DisplayNameFor(model => model.DateRegister) *@
+                <label>Дата</label>
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Users.FirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Services.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateRegister)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Редактиране</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Детайли</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Изтриване</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

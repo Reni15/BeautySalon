@@ -1,0 +1,57 @@
+﻿@model BeautySalon.Data.Service
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Изтриване</h1>
+
+<h3>Сигурни ли сте, че искате да го изтриете?</h3>
+<div>
+    <h4>Услуга</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            <label>Име</label>
+        </dt>
+        <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class="col-sm-2">
+            <label>Цена</label>
+        </dt>
+        <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Price)
+        </dd>
+        <dt class="col-sm-2">
+            <label>Услуги</label>
+        </dt>
+        <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.TypeServices.Id)
+        </dd>
+        <dt class="col-sm-2">
+            <label>Описание</label>
+        </dt>
+        <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Description)
+        </dd>
+        <dt class="col-sm-2">
+            <label>Снимка</label>
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.URLimages)
+        </dd>
+      @*   <dt class="col-sm-2">
+            <label>Дата</label>
+        <dt/>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DateRegister)
+        </dd> *@
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Изтриване" class="btn btn-danger" /> |
+        <a asp-action="IndexMakeUp">Връщане назад</a>
+    </form>
+</div>

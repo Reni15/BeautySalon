@@ -1,0 +1,45 @@
+﻿@model BeautySalon.Data.Reservation
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Изтриване</h1>
+
+<h3>Сигурни ли сте, че искате да изтриете резервацията?</h3>
+<div>
+    <h4>Резервация</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @* @Html.DisplayNameFor(model => model.Users) *@
+            <label>Потребител</label>
+
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Users.FirstName)
+        </dd>
+        <dt class = "col-sm-2">
+            @* @Html.DisplayNameFor(model => model.Services) *@
+            <label>Услуга</label>
+
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Services.Id)
+        </dd>
+        <dt class = "col-sm-2">
+            @* @Html.DisplayNameFor(model => model.DateRegister) *@
+            <label>Дата на регистрация</label>
+
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DateRegister)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Изтриване" class="btn btn-danger" /> |
+        <a asp-action="Index">Връщане назад</a>
+    </form>
+</div>
