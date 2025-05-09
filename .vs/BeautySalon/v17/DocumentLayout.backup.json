@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Acer\\Desktop\\BeautySalon\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9DD41489-0C40-4369-8736-D9C6E01C8B2E}|BeautySalon\\BeautySalon.csproj|c:\\users\\acer\\desktop\\beautysalon\\beautysalon\\views\\services\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9DD41489-0C40-4369-8736-D9C6E01C8B2E}|BeautySalon\\BeautySalon.csproj|solutionrelative:beautysalon\\views\\services\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DD41489-0C40-4369-8736-D9C6E01C8B2E}|BeautySalon\\BeautySalon.csproj|c:\\users\\acer\\desktop\\beautysalon\\beautysalon\\views\\services\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9DD41489-0C40-4369-8736-D9C6E01C8B2E}|BeautySalon\\BeautySalon.csproj|solutionrelative:beautysalon\\views\\services\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9DD41489-0C40-4369-8736-D9C6E01C8B2E}|BeautySalon\\BeautySalon.csproj|c:\\users\\acer\\desktop\\beautysalon\\beautysalon\\views\\reservations\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9DD41489-0C40-4369-8736-D9C6E01C8B2E}|BeautySalon\\BeautySalon.csproj|solutionrelative:beautysalon\\views\\reservations\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -39,6 +47,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\BeautySalon\\BeautySalon\\Views\\Services\\Delete.cshtml",
+              "RelativeDocumentMoniker": "BeautySalon\\Views\\Services\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\BeautySalon\\BeautySalon\\Views\\Services\\Delete.cshtml",
+              "RelativeToolTip": "BeautySalon\\Views\\Services\\Delete.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACkAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-09T12:46:56.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\BeautySalon\\BeautySalon\\Views\\Services\\Details.cshtml",
+              "RelativeDocumentMoniker": "BeautySalon\\Views\\Services\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\BeautySalon\\BeautySalon\\Views\\Services\\Details.cshtml",
+              "RelativeToolTip": "BeautySalon\\Views\\Services\\Details.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-09T12:44:20.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\BeautySalon\\BeautySalon\\Views\\Reservations\\Details.cshtml",
               "RelativeDocumentMoniker": "BeautySalon\\Views\\Reservations\\Details.cshtml",
@@ -51,7 +85,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\BeautySalon\\BeautySalon\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "BeautySalon\\Views\\Shared\\_LoginPartial.cshtml",
@@ -59,12 +93,11 @@
               "RelativeToolTip": "BeautySalon\\Views\\Shared\\_LoginPartial.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-09T12:38:13.613Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-09T12:38:13.613Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\BeautySalon\\BeautySalon\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "BeautySalon\\Views\\Shared\\_Layout.cshtml",
@@ -76,7 +109,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\BeautySalon\\BeautySalon\\Views\\Reservations\\Index.cshtml",
               "RelativeDocumentMoniker": "BeautySalon\\Views\\Reservations\\Index.cshtml",
@@ -88,7 +121,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Clients.cshtml",
               "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\BeautySalon\\BeautySalon\\Views\\Home\\Clients.cshtml",
               "RelativeDocumentMoniker": "BeautySalon\\Views\\Home\\Clients.cshtml",
@@ -100,7 +133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Galery.cshtml",
               "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\BeautySalon\\BeautySalon\\Views\\Home\\Galery.cshtml",
               "RelativeDocumentMoniker": "BeautySalon\\Views\\Home\\Galery.cshtml",
