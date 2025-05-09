@@ -4,10 +4,10 @@
     ViewData["Title"] = "Details";
 }
 
-<h1>Details</h1>
+<h1>Детайли</h1>
 
 <div>
-    <h4>Service</h4>
+    <h4>Услуга</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
@@ -28,22 +28,23 @@
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Price)
         </dd>
-        <dt class = "col-sm-2">
+       @*  <dt class = "col-sm-2"> *@
 @*             @Html.DisplayNameFor(model => model.TypeServices)
  *@
-            <label>Услуга</label>
+           @*  <label>Услуга</label>
 
 </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.TypeServices.Id)
-        </dd>
+            @Html.DisplayFor(model => model.TypeServices.Name)
+        </dd> *@
+        
         <dt class = "col-sm-2">
 @*             @Html.DisplayNameFor(model => model.Description)
  *@
             <label>Описание</label>
 </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Description)
+           <p> @Html.DisplayFor(model => model.Description)</>
         </dd>
         <dt class = "col-sm-2">
 @*             @Html.DisplayNameFor(model => model.URLimages)
@@ -52,8 +53,8 @@
             <label>Снимка</label>
 
 </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.URLimages)
+        <dd class="col-sm-10">
+            <img src="@Html.DisplayFor(model => model.URLimages)" width="150" height="180" />
         </dd>
         <dt class = "col-sm-2">
 @*             @Html.DisplayNameFor(model => model.DateRegister)

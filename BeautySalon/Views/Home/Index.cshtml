@@ -1,7 +1,7 @@
-﻿@{
+﻿﻿@{
     ViewData["Title"] = "Цветен Блясък";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
-@* <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.5.3/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script> *@
 <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.5.3/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
 <main>
     <section class="section">
@@ -9,8 +9,8 @@
         <p>Тук е мястото, където достигането на съвършенство е реалност. Ние сме тук, за да ви помогнем да постигнете вашите цели за красота бързо и ефективно. Независимо дали искате да се преобразите или просто да се релаксирате, екипът ни от професионалисти ви очаква, за да ви подари едно незабравимо изживяване.</p>
     </section>
 </main>
-<div class="section">
 
+<div class="section">
     <div class="gallery">
         <div class="gallery-item">
             <img src="Images/salon.jpg" height="200" width="150" hspace="50" />
@@ -20,122 +20,116 @@
         </div>
     </div>
 </div>
-<hr/>
-<div class="section">
-    <h2>Маникюр</h2>
-    <p>Отдайте се на най-доброто изживяване и поглезете вашите ръце в студио за красота "Цветен блясък" . Ние разполагаме с екип от висококвалифицирани и опитни маникюристи, които са посветени да останат в челните редици на модните тенденции. За тези, които желаят дълготрайни, устойчиви на счупване нокти, нашите услуги за ноктопластика с гел са идеалното решение. Постигнете безупречни, издръжливи нокти с лъскаво покритие, което издържа седмици..</p>
-</div>
-<div class="section">
+<hr />
+<div class="section_2">
     <h2>Нашите клиентки</h2>
-    <div class="gallery">
-
-        <div class="gallery-item">
-            <img src="../images/nails1.jpg" height="200" width="150" hspace="50" />
-
+    <div class="content-wrapper">
+        <div class="gallery_2">
+            <div class="gallery-item_2">
+                <img src="../images/nails1.jpg" height="100" width="100" />
+            </div>
+            <div class="gallery-item_2">
+                <img src="../images/nails2.jpg" height="100" width="100" />
+            </div>
+            <div class="gallery-item_2">
+                <img src="../images/nails3.jpg" height="100" width="100" />
+            </div>
         </div>
 
-        <div class="gallery-item">
-            <img src="../images/nails2.jpg" height="200" width="150" hspace="50" />
-
-        </div>
-
-        <div class="gallery-item">
-            <img src="../images/nails3.jpg" height="200" width="150" hspace="50" />
+        <div class="table-price">
+            <table class="pricing-table">
+                <thead>
+                    <tr>
+                        <th>Маникюр</th>
+                        <th>Цена</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Френски маникюр</td>
+                        <td class="price">45лв</td>
+                    </tr>
+                    <tr>
+                        <td>Гел лак</td>
+                        <td class="price">35лв</td>
+                    </tr>
+                    <tr>
+                        <td>Гел маникюр</td>
+                        <td class="price">50лв</td>
+                    </tr>
+                    <tr>
+                        <td>Акрилен маникюр</td>
+                        <td class="price">55лв</td>
+                    </tr>
+                    <tr>
+                        <td>Маникюр с декорации</td>
+                        <td class="price">60лв</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </div>
 </div>
 
-<div class="table-price">
-    <table class="pricing-table">
+<hr />
+
+
+<section class="section">
+    <h2>Грим</h2>
+    <p>В студио за красота "Цветен блясък" вярваме, че всяко лице е платно и нашите гримьори са тук, за да превърнат вашата визия за красота в реалност, гарантирайки, че ще изглеждате зашеметяващо добре, независимо дали става въпрос за специално събитие, сватба, фотосесия или просто желание да подобрите ежедневната си визия.</p>
+</section>
+
+<hr />
+
+<div class="section_left">
+    <h2>Нашите клиентки</h2>
+    <div class="gallery">
+        <div>
+            <img src="../images/grim1.jpg" height="180" width="150" hspace="50" />
+
+        </div>
+        <div>
+            <img src="../images/grim2.jpg" height="180" width="150" hspace="50" />
+        </div>
+        <div>
+            <img src="../images/grim3.jpg" height="180" width="150" hspace="50" />
+        </div>
+    </div>
+</div>
+<div class="container">
+    @* <h1>Цени</h1> *@
+    <table>
         <thead>
             <tr>
-                <th>Услуга</th>
+                <th>Грим</th>
                 <th>Цена</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>Френски маникюр</td>
-                <td class="price">45лв</td>
+                <td>Ежедневен грим</td>
+                <td>70лв</td>
             </tr>
             <tr>
-                <td>Гел лак</td>
-                <td class="price">35лв</td>
+                <td>Професионален грим</td>
+                <td>110лв</td>
             </tr>
             <tr>
-                <td>Гел маникюр</td>
-                <td class="price">50лв</td>
+                <td>Вечерен грим</td>
+                <td>90лв</td>
             </tr>
             <tr>
-                <td>Акрилен маникюр</td>
-                <td class="price">55лв</td>
+                <td>Булчински грим</td>
+                <td>120лв</td>
             </tr>
             <tr>
-                <td>Маникюр с декорации</td>
-                <td class="price">60лв</td>
+                <td>Абитуриентски грим</td>
+                <td>130лв</td>
             </tr>
         </tbody>
     </table>
-   </div>
-    <hr />
-   
-    <section class="section">
-        <h2>Грим</h2>
-        <p>В студио за красота "Цветен блясък" вярваме, че всяко лице е платно и нашите гримьори са тук, за да превърнат вашата визия за красота в реалност, гарантирайки, че ще изглеждате зашеметяващо добре, независимо дали става въпрос за специално събитие, сватба, фотосесия или просто желание да подобрите ежедневната си визия.</p>
-    </section>
-
-    <hr/>
-
-    <div class="section_left">
-        <h2>Нашите клиентки</h2>
-        <div class="gallery">
-            <div>
-                <img src="../images/grim1.jpg" height="180" width="150" hspace="50" />
-
-            </div>
-            <div>
-                <img src="../images/grim2.jpg" height="180" width="150" hspace="50" />
-            </div>
-            <div>
-                <img src="../images/grim3.jpg" height="180" width="150" hspace="50" />
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <h1>Цени</h1>
-        <table>
-            <thead>
-                <tr>
-                    <th>Грим</th>
-                    <th>Цена</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Ежедневен грим</td>
-                    <td>70лв</td>
-                </tr>
-                <tr>
-                    <td>Професионален грим</td>
-                    <td>110лв</td>
-                </tr>
-                <tr>
-                    <td>Вечерен грим</td>
-                    <td>90лв</td>
-                </tr>
-                <tr>
-                    <td>Булчински грим</td>
-                    <td>120лв</td>
-                </tr>  
-                <tr>
-                    <td>Абитуриентски грим</td>
-                    <td>130лв</td>
-                </tr>
-            </tbody>
-        </table>    
-    </div>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-
+</div>
+<br />
+<br />
+<br />
+<br />

@@ -1,28 +1,28 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/BeautySalon/BeautySalon.6n4c9zt1gt.bundle.scp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\BeautySalon.6n4c9zt1gt.bundle.scp.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"6n4c9zt1gt"},{"Name":"integrity","Value":"sha256-gscqYiwbXNwPK/1RKY6xCgdMyo3/btSWHdZoa0QOdro="},{"Name":"label","Value":"_content/BeautySalon/BeautySalon.bundle.scp.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1528"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022gscqYiwbXNwPK/1RKY6xCgdMyo3/btSWHdZoa0QOdro=\u0022"},{"Name":"Last-Modified","Value":"Fri, 09 May 2025 10:09:33 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BeautySalon/BeautySalon.bundle.scp.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\BeautySalon.r6xsts2zmv.bundle.scp.css'))</AssetFile>
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\BeautySalon.6n4c9zt1gt.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-/Vs3DSNVtwXT4ejX1mrLXFmrm\u002BJiFM/eN8EJl1bxUhQ="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1342"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022/Vs3DSNVtwXT4ejX1mrLXFmrm\u002BJiFM/eN8EJl1bxUhQ=\u0022"},{"Name":"Last-Modified","Value":"Fri, 09 May 2025 10:02:00 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-gscqYiwbXNwPK/1RKY6xCgdMyo3/btSWHdZoa0QOdro="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1528"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022gscqYiwbXNwPK/1RKY6xCgdMyo3/btSWHdZoa0QOdro=\u0022"},{"Name":"Last-Modified","Value":"Fri, 09 May 2025 10:09:33 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/BeautySalon/BeautySalon.r6xsts2zmv.bundle.scp.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\BeautySalon.r6xsts2zmv.bundle.scp.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"r6xsts2zmv"},{"Name":"integrity","Value":"sha256-/Vs3DSNVtwXT4ejX1mrLXFmrm\u002BJiFM/eN8EJl1bxUhQ="},{"Name":"label","Value":"_content/BeautySalon/BeautySalon.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1342"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022/Vs3DSNVtwXT4ejX1mrLXFmrm\u002BJiFM/eN8EJl1bxUhQ=\u0022"},{"Name":"Last-Modified","Value":"Fri, 09 May 2025 10:02:00 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/BeautySalon/css/site.7sdk9uil4n.css">
+    <StaticWebAssetEndpoint Include="_content/BeautySalon/css/site.35rb2g52fi.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"7sdk9uil4n"},{"Name":"integrity","Value":"sha256-x8Pe58IW6Cg3Pf3s3qgkiU0iBeLl/7nETd/JpH6u5jw="},{"Name":"label","Value":"_content/BeautySalon/css/site.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3871"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022x8Pe58IW6Cg3Pf3s3qgkiU0iBeLl/7nETd/JpH6u5jw=\u0022"},{"Name":"Last-Modified","Value":"Wed, 07 May 2025 08:37:00 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"35rb2g52fi"},{"Name":"integrity","Value":"sha256-J7AkpobD7hNHNvCW44TgkDgXG\u002BWN/MtHZ71IDyQlzGI="},{"Name":"label","Value":"_content/BeautySalon/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4501"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022J7AkpobD7hNHNvCW44TgkDgXG\u002BWN/MtHZ71IDyQlzGI=\u0022"},{"Name":"Last-Modified","Value":"Fri, 09 May 2025 10:18:49 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BeautySalon/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-x8Pe58IW6Cg3Pf3s3qgkiU0iBeLl/7nETd/JpH6u5jw="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3871"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022x8Pe58IW6Cg3Pf3s3qgkiU0iBeLl/7nETd/JpH6u5jw=\u0022"},{"Name":"Last-Modified","Value":"Wed, 07 May 2025 08:37:00 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-J7AkpobD7hNHNvCW44TgkDgXG\u002BWN/MtHZ71IDyQlzGI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"4501"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022J7AkpobD7hNHNvCW44TgkDgXG\u002BWN/MtHZ71IDyQlzGI=\u0022"},{"Name":"Last-Modified","Value":"Fri, 09 May 2025 10:18:49 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BeautySalon/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>

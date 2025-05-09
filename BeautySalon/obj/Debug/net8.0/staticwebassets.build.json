@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9sjpwvc8Q4HeDaay8DEsOre5Oy80HBgsxwOiM1Ks9QA=",
+  "Hash": "pS5LRlr7cy/XgmyiLJAj23LgHuEhYGTcFu6Bousfd0Y=",
   "Source": "BeautySalon",
   "BasePath": "_content/BeautySalon",
   "Mode": "Default",
@@ -1291,8 +1291,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "r6xsts2zmv",
-      "Integrity": "/Vs3DSNVtwXT4ejX1mrLXFmrm+JiFM/eN8EJl1bxUhQ=",
+      "Fingerprint": "6n4c9zt1gt",
+      "Integrity": "gscqYiwbXNwPK/1RKY6xCgdMyo3/btSWHdZoa0QOdro=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Acer\\Desktop\\BeautySalon\\BeautySalon\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BeautySalon.styles.css"
@@ -1312,8 +1312,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "r6xsts2zmv",
-      "Integrity": "/Vs3DSNVtwXT4ejX1mrLXFmrm+JiFM/eN8EJl1bxUhQ=",
+      "Fingerprint": "6n4c9zt1gt",
+      "Integrity": "gscqYiwbXNwPK/1RKY6xCgdMyo3/btSWHdZoa0QOdro=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Acer\\Desktop\\BeautySalon\\BeautySalon\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BeautySalon.bundle.scp.css"
@@ -1333,8 +1333,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "7sdk9uil4n",
-      "Integrity": "x8Pe58IW6Cg3Pf3s3qgkiU0iBeLl/7nETd/JpH6u5jw=",
+      "Fingerprint": "35rb2g52fi",
+      "Integrity": "J7AkpobD7hNHNvCW44TgkDgXG+WN/MtHZ71IDyQlzGI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -2959,6 +2959,96 @@
   ],
   "Endpoints": [
     {
+      "Route": "BeautySalon.6n4c9zt1gt.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Acer\\Desktop\\BeautySalon\\BeautySalon\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BeautySalon.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1528"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gscqYiwbXNwPK/1RKY6xCgdMyo3/btSWHdZoa0QOdro=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 10:09:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6n4c9zt1gt"
+        },
+        {
+          "Name": "label",
+          "Value": "BeautySalon.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gscqYiwbXNwPK/1RKY6xCgdMyo3/btSWHdZoa0QOdro="
+        }
+      ]
+    },
+    {
+      "Route": "BeautySalon.6n4c9zt1gt.styles.css",
+      "AssetFile": "C:\\Users\\Acer\\Desktop\\BeautySalon\\BeautySalon\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BeautySalon.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1528"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gscqYiwbXNwPK/1RKY6xCgdMyo3/btSWHdZoa0QOdro=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 10:09:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6n4c9zt1gt"
+        },
+        {
+          "Name": "label",
+          "Value": "BeautySalon.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gscqYiwbXNwPK/1RKY6xCgdMyo3/btSWHdZoa0QOdro="
+        }
+      ]
+    },
+    {
       "Route": "BeautySalon.bundle.scp.css",
       "AssetFile": "C:\\Users\\Acer\\Desktop\\BeautySalon\\BeautySalon\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BeautySalon.bundle.scp.css",
       "Selectors": [],
@@ -2969,7 +3059,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1342"
+          "Value": "1528"
         },
         {
           "Name": "Content-Type",
@@ -2977,11 +3067,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/Vs3DSNVtwXT4ejX1mrLXFmrm+JiFM/eN8EJl1bxUhQ=\""
+          "Value": "\"gscqYiwbXNwPK/1RKY6xCgdMyo3/btSWHdZoa0QOdro=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 10:02:00 GMT"
+          "Value": "Fri, 09 May 2025 10:09:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2991,97 +3081,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-/Vs3DSNVtwXT4ejX1mrLXFmrm+JiFM/eN8EJl1bxUhQ="
-        }
-      ]
-    },
-    {
-      "Route": "BeautySalon.r6xsts2zmv.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Acer\\Desktop\\BeautySalon\\BeautySalon\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BeautySalon.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1342"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"/Vs3DSNVtwXT4ejX1mrLXFmrm+JiFM/eN8EJl1bxUhQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 10:02:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "r6xsts2zmv"
-        },
-        {
-          "Name": "label",
-          "Value": "BeautySalon.bundle.scp.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-/Vs3DSNVtwXT4ejX1mrLXFmrm+JiFM/eN8EJl1bxUhQ="
-        }
-      ]
-    },
-    {
-      "Route": "BeautySalon.r6xsts2zmv.styles.css",
-      "AssetFile": "C:\\Users\\Acer\\Desktop\\BeautySalon\\BeautySalon\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BeautySalon.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1342"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"/Vs3DSNVtwXT4ejX1mrLXFmrm+JiFM/eN8EJl1bxUhQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 10:02:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "r6xsts2zmv"
-        },
-        {
-          "Name": "label",
-          "Value": "BeautySalon.styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-/Vs3DSNVtwXT4ejX1mrLXFmrm+JiFM/eN8EJl1bxUhQ="
+          "Value": "sha256-gscqYiwbXNwPK/1RKY6xCgdMyo3/btSWHdZoa0QOdro="
         }
       ]
     },
@@ -3096,7 +3096,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1342"
+          "Value": "1528"
         },
         {
           "Name": "Content-Type",
@@ -3104,11 +3104,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/Vs3DSNVtwXT4ejX1mrLXFmrm+JiFM/eN8EJl1bxUhQ=\""
+          "Value": "\"gscqYiwbXNwPK/1RKY6xCgdMyo3/btSWHdZoa0QOdro=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 10:02:00 GMT"
+          "Value": "Fri, 09 May 2025 10:09:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3118,12 +3118,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-/Vs3DSNVtwXT4ejX1mrLXFmrm+JiFM/eN8EJl1bxUhQ="
+          "Value": "sha256-gscqYiwbXNwPK/1RKY6xCgdMyo3/btSWHdZoa0QOdro="
         }
       ]
     },
     {
-      "Route": "css/site.7sdk9uil4n.css",
+      "Route": "css/site.35rb2g52fi.css",
       "AssetFile": "C:\\Users\\Acer\\Desktop\\BeautySalon\\BeautySalon\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3133,7 +3133,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3871"
+          "Value": "4501"
         },
         {
           "Name": "Content-Type",
@@ -3141,11 +3141,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"x8Pe58IW6Cg3Pf3s3qgkiU0iBeLl/7nETd/JpH6u5jw=\""
+          "Value": "\"J7AkpobD7hNHNvCW44TgkDgXG+WN/MtHZ71IDyQlzGI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 08:37:00 GMT"
+          "Value": "Fri, 09 May 2025 10:18:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3155,7 +3155,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "7sdk9uil4n"
+          "Value": "35rb2g52fi"
         },
         {
           "Name": "label",
@@ -3163,7 +3163,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-x8Pe58IW6Cg3Pf3s3qgkiU0iBeLl/7nETd/JpH6u5jw="
+          "Value": "sha256-J7AkpobD7hNHNvCW44TgkDgXG+WN/MtHZ71IDyQlzGI="
         }
       ]
     },
@@ -3178,7 +3178,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3871"
+          "Value": "4501"
         },
         {
           "Name": "Content-Type",
@@ -3186,11 +3186,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"x8Pe58IW6Cg3Pf3s3qgkiU0iBeLl/7nETd/JpH6u5jw=\""
+          "Value": "\"J7AkpobD7hNHNvCW44TgkDgXG+WN/MtHZ71IDyQlzGI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 08:37:00 GMT"
+          "Value": "Fri, 09 May 2025 10:18:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3200,7 +3200,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-x8Pe58IW6Cg3Pf3s3qgkiU0iBeLl/7nETd/JpH6u5jw="
+          "Value": "sha256-J7AkpobD7hNHNvCW44TgkDgXG+WN/MtHZ71IDyQlzGI="
         }
       ]
     },
