@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "K0noPyodwWU=",
+  "dgSpecHash": "wRhrjGCo8XE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Acer\\Desktop\\Reni1\\BeautySalon\\BeautySalon.csproj",
+  "projectFilePath": "C:\\Users\\Acer\\Desktop\\BeautySalon\\BeautySalon\\BeautySalon.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Acer\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

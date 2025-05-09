@@ -11,6 +11,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace BeautySalon.Controllers
 {
+    [Authorize]
     public class ReservationsController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -25,10 +26,21 @@ namespace BeautySalon.Controllers
         // GET: Reservations
         public async Task<IActionResult> Index()
         {
-            var applicationDbContext = _context.Reservations
-                .Include(r => r.Services)
-                .Include(r => r.Users);
-            return View(await applicationDbContext.ToListAsync());
+            if (User.IsInRole("Admin"))
+            {
+                var applicationDbContext = _context.Reservations
+                                .Include(r => r.Services)
+                                .Include(r => r.Users);
+                return View(await applicationDbContext.ToListAsync());
+            }
+            else
+            {
+                var applicationDbContext = _context.Reservations
+               .Include(r => r.Services)
+               .Include(r => r.Users)
+               .Where(x => x.UserId == _userManager.GetUserId(User));
+                return View(await applicationDbContext.ToListAsync());
+            }
         }
         // GET: Reservations/Details/5
         public async Task<IActionResult> Details(int? id)
@@ -65,16 +77,16 @@ namespace BeautySalon.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> CreatePost([Bind("ServiceId,DateRegister")] Reservation reservation,int serviceId)
+        public async Task<IActionResult> CreatePost([Bind("ServiceId,DateRegister")] Reservation reservation, int serviceId)
         {
             //reservation.DateRegister = DateTime.Now;   
-            
+
             if (ModelState.IsValid)
             {
                 var currentService = await _context.Services.FirstOrDefaultAsync(z => z.Id == reservation.ServiceId);
                 reservation.UserId = _userManager.GetUserId(User);
                 _context.Reservations.Add(reservation);
-                reservation.ServiceId=serviceId;
+                reservation.ServiceId = serviceId;
 
                 //reservation.UserId = _userManager.GetUserId(User);
                 //ViewData["ServiceId"] = new SelectList(_context.Services, "Id", "Id", reservation.ServiceId);
@@ -83,7 +95,7 @@ namespace BeautySalon.Controllers
                 return RedirectToAction(nameof(Index));
             }
             //var userId = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
-             ViewData["ServiceId"] = new SelectList(_context.Services, "Id", "Name", reservation.ServiceId);
+            ViewData["ServiceId"] = new SelectList(_context.Services, "Id", "Name", reservation.ServiceId);
             //ViewData["UserId"] = new SelectList(_context.Users, "Id", "Id", reservation.UserId);
             return View();
         }
@@ -92,7 +104,7 @@ namespace BeautySalon.Controllers
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Edit(int? id)
         {
-            
+
             if (id == null)
             {
                 return NotFound();
@@ -145,7 +157,7 @@ namespace BeautySalon.Controllers
             return View(reservation);
 
         }
-       
+
         // GET: Reservations/Delete/5
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(int? id)

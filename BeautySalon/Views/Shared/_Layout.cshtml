@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿﻿
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -6,7 +7,7 @@
     <title>@ViewData["Title"] - BeautySalon</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    @* <link rel="stylesheet" href="~/BeautySalon.styles.css" asp-append-version="true" /> *@
+    <link rel="stylesheet" href="~/BeautySalon.styles.css" asp-append-version="true" />    @* <link rel="stylesheet" href="~/BeautySalon.styles.css" asp-append-version="true" /> *@
 </head>
 <body>
     <header>
@@ -26,7 +27,7 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Services" asp-action="IndexNails">Маникюр</a>
-                        </li> 
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Services" asp-action="IndexMakeup">Грим</a>
                         </li>
@@ -42,10 +43,10 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Reservations" asp-action="Index">Резервации</a>
                         </li>
-                        
-                         @if (User.IsInRole("Admin"))
+
+                        @if (User.IsInRole("Admin"))
                         {
-                           
+
                             <li class="nav-item">
                                 <a class="nav-link text-dark" asp-area="" asp-controller="TypeServices" asp-action="Index">Категория</a>
                             </li>
@@ -53,29 +54,28 @@
                     </ul>
                     <partial name="_LoginPartial" />
                 </div>
-            </div>
-        </nav>
-    </header>
+                </div>
+    </nav>
+</header>
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
-    
-    <div class="footer_section">
-        <footer class="border-top footer text-muted">
-            <div class="container">
-                &copy; 2025 - Цветен Блясък - <a asp-area="" asp-controller="Home" asp-action="Privacy">Контакти</a>
-            </div>
-            <br />
-        </footer>
-    </div>
-   
+
+    <footer class="border-top footer text-muted">
+        <div class="container" style="text-align:center;">
+            &copy; 2025 - Салон за красота- "Цветен блясък" - <a asp-area="" asp-controller="Home" asp-action="Index">Начало</a>
+        </div>
+    </footer>
+
+
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 
-  
+
 </body>
 </html>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Acer\\Desktop\\Reni1\\BeautySalon\\BeautySalon.csproj": {}
+    "C:\\Users\\Acer\\Desktop\\BeautySalon\\BeautySalon\\BeautySalon.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Acer\\Desktop\\Reni1\\BeautySalon\\BeautySalon.csproj": {
+    "C:\\Users\\Acer\\Desktop\\BeautySalon\\BeautySalon\\BeautySalon.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Acer\\Desktop\\Reni1\\BeautySalon\\BeautySalon.csproj",
+        "projectUniqueName": "C:\\Users\\Acer\\Desktop\\BeautySalon\\BeautySalon\\BeautySalon.csproj",
         "projectName": "BeautySalon",
-        "projectPath": "C:\\Users\\Acer\\Desktop\\Reni1\\BeautySalon\\BeautySalon.csproj",
+        "projectPath": "C:\\Users\\Acer\\Desktop\\BeautySalon\\BeautySalon\\BeautySalon.csproj",
         "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Acer\\Desktop\\Reni1\\BeautySalon\\obj\\",
+        "outputPath": "C:\\Users\\Acer\\Desktop\\BeautySalon\\BeautySalon\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

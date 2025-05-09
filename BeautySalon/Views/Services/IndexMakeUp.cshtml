@@ -16,7 +16,7 @@
         <div class="card" style="width:30%; height:25%; ">
             <div class="card-body">
                 <div class="card-img">
-                    <img src="@Html.DisplayFor(modelItem=>item.URLimages)" width="350" height="230" />
+                    <img src="@Html.DisplayFor(modelItem=>item.URLimages)" width="350" height="430" />
                 </div>
                 <br />
                 <h5 class="card-title">
@@ -31,7 +31,7 @@
                 {
                         <div class="buttons">
                             <form method="post" asp-controller="Reservations" asp-action="CreatePost" asp-route-serviceId="@item.Id">
-                            <a class="btn btn-primary" asp-action="Details" asp-route-serviceId="@item.Id">Детайли</a>
+                            <a class="btn btn-primary" asp-action="Details" asp-route-Id="@item.Id">Детайли</a>
                                 <input type="submit" class="btn btn-primary" value="Резервирай" />
                             </form> 
                         </div>
