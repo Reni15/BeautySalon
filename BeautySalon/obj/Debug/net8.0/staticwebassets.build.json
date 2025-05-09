@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/mU/syj2WMyUg32ei8Lg5eUsEiUhHYSEIvbtPmM6zp8=",
+  "Hash": "ncTyhgKllu9STCmjEJamdYdKSCpA6Kf65VyDq5L2iZA=",
   "Source": "BeautySalon",
   "BasePath": "_content/BeautySalon",
   "Mode": "Default",
@@ -1333,8 +1333,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ezvih8typp",
-      "Integrity": "apO8ArUKsCECGoiXFVEUe4Qale1MOV16U5tsy1CJQew=",
+      "Fingerprint": "oup9w8izbx",
+      "Integrity": "4PR+MG7e+x7qBXZIHyo/zdNKxUBBD8KcrExzNJwKC+U=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -3259,7 +3259,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6603"
+          "Value": "6755"
         },
         {
           "Name": "Content-Type",
@@ -3267,11 +3267,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"apO8ArUKsCECGoiXFVEUe4Qale1MOV16U5tsy1CJQew=\""
+          "Value": "\"4PR+MG7e+x7qBXZIHyo/zdNKxUBBD8KcrExzNJwKC+U=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 11:46:59 GMT"
+          "Value": "Fri, 09 May 2025 11:51:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3281,12 +3281,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-apO8ArUKsCECGoiXFVEUe4Qale1MOV16U5tsy1CJQew="
+          "Value": "sha256-4PR+MG7e+x7qBXZIHyo/zdNKxUBBD8KcrExzNJwKC+U="
         }
       ]
     },
     {
-      "Route": "css/site.ezvih8typp.css",
+      "Route": "css/site.oup9w8izbx.css",
       "AssetFile": "C:\\Users\\Acer\\Desktop\\BeautySalon\\BeautySalon\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3296,7 +3296,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6603"
+          "Value": "6755"
         },
         {
           "Name": "Content-Type",
@@ -3304,11 +3304,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"apO8ArUKsCECGoiXFVEUe4Qale1MOV16U5tsy1CJQew=\""
+          "Value": "\"4PR+MG7e+x7qBXZIHyo/zdNKxUBBD8KcrExzNJwKC+U=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 11:46:59 GMT"
+          "Value": "Fri, 09 May 2025 11:51:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3318,7 +3318,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ezvih8typp"
+          "Value": "oup9w8izbx"
         },
         {
           "Name": "label",
@@ -3326,7 +3326,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-apO8ArUKsCECGoiXFVEUe4Qale1MOV16U5tsy1CJQew="
+          "Value": "sha256-4PR+MG7e+x7qBXZIHyo/zdNKxUBBD8KcrExzNJwKC+U="
         }
       ]
     },
