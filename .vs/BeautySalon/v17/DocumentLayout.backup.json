@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Acer\\Desktop\\BeautySalon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9DD41489-0C40-4369-8736-D9C6E01C8B2E}|BeautySalon\\BeautySalon.csproj|c:\\users\\acer\\desktop\\beautysalon\\beautysalon\\views\\services\\indexmakeup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9DD41489-0C40-4369-8736-D9C6E01C8B2E}|BeautySalon\\BeautySalon.csproj|solutionrelative:beautysalon\\views\\services\\indexmakeup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9DD41489-0C40-4369-8736-D9C6E01C8B2E}|BeautySalon\\BeautySalon.csproj|c:\\users\\acer\\desktop\\beautysalon\\beautysalon\\views\\services\\indexnails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9DD41489-0C40-4369-8736-D9C6E01C8B2E}|BeautySalon\\BeautySalon.csproj|solutionrelative:beautysalon\\views\\services\\indexnails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9DD41489-0C40-4369-8736-D9C6E01C8B2E}|BeautySalon\\BeautySalon.csproj|c:\\users\\acer\\desktop\\beautysalon\\beautysalon\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{9DD41489-0C40-4369-8736-D9C6E01C8B2E}|BeautySalon\\BeautySalon.csproj|solutionrelative:beautysalon\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DD41489-0C40-4369-8736-D9C6E01C8B2E}|BeautySalon\\BeautySalon.csproj|c:\\users\\acer\\desktop\\beautysalon\\beautysalon\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9DD41489-0C40-4369-8736-D9C6E01C8B2E}|BeautySalon\\BeautySalon.csproj|solutionrelative:beautysalon\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DD41489-0C40-4369-8736-D9C6E01C8B2E}|BeautySalon\\BeautySalon.csproj|c:\\users\\acer\\desktop\\beautysalon\\beautysalon\\views\\home\\galery.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9DD41489-0C40-4369-8736-D9C6E01C8B2E}|BeautySalon\\BeautySalon.csproj|solutionrelative:beautysalon\\views\\home\\galery.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +22,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "IndexMakeUp.cshtml",
-              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\BeautySalon\\BeautySalon\\Views\\Services\\IndexMakeUp.cshtml",
-              "RelativeDocumentMoniker": "BeautySalon\\Views\\Services\\IndexMakeUp.cshtml",
-              "ToolTip": "C:\\Users\\Acer\\Desktop\\BeautySalon\\BeautySalon\\Views\\Services\\IndexMakeUp.cshtml",
-              "RelativeToolTip": "BeautySalon\\Views\\Services\\IndexMakeUp.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAACAAAABcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-09T11:22:12.41Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IndexNails.cshtml",
-              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\BeautySalon\\BeautySalon\\Views\\Services\\IndexNails.cshtml",
-              "RelativeDocumentMoniker": "BeautySalon\\Views\\Services\\IndexNails.cshtml",
-              "ToolTip": "C:\\Users\\Acer\\Desktop\\BeautySalon\\BeautySalon\\Views\\Services\\IndexNails.cshtml",
-              "RelativeToolTip": "BeautySalon\\Views\\Services\\IndexNails.cshtml",
-              "ViewState": "AgIAABwAAAAAAAAAAAAqwCEAAABcAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\BeautySalon\\BeautySalon\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "BeautySalon\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\BeautySalon\\BeautySalon\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "BeautySalon\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-09T11:08:53.76Z",
+              "WhenOpened": "2025-05-09T11:45:11.584Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Galery.cshtml",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\BeautySalon\\BeautySalon\\Views\\Home\\Galery.cshtml",
+              "RelativeDocumentMoniker": "BeautySalon\\Views\\Home\\Galery.cshtml",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\BeautySalon\\BeautySalon\\Views\\Home\\Galery.cshtml",
+              "RelativeToolTip": "BeautySalon\\Views\\Home\\Galery.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAqwDIAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-09T11:28:04.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\BeautySalon\\BeautySalon\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "BeautySalon\\wwwroot\\css\\site.css",
               "ToolTip": "C:\\Users\\Acer\\Desktop\\BeautySalon\\BeautySalon\\wwwroot\\css\\site.css",
               "RelativeToolTip": "BeautySalon\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAG4BAAAAAAAAAAAgwIIBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-05-09T10:16:08.79Z"
+              "WhenOpened": "2025-05-09T10:16:08.79Z",
+              "EditorCaption": ""
             }
           ]
         }
