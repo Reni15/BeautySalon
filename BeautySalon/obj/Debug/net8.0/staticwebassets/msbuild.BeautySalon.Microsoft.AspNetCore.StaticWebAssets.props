@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>35rb2g52fi</Fingerprint>
-      <Integrity>J7AkpobD7hNHNvCW44TgkDgXG+WN/MtHZ71IDyQlzGI=</Integrity>
+      <Fingerprint>aiotkk86hq</Fingerprint>
+      <Integrity>rnq+Ojlu20iQ0OYVq9AesQWAdszt6Y4O2GGD02mQoUM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</OriginalItemSpec>
@@ -234,6 +234,78 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Logo2.png'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\makeup1.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>BeautySalon</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BeautySalon</BasePath>
+      <RelativePath>images/makeup1.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>r5ed7tdsxx</Fingerprint>
+      <Integrity>71PJvEALWjAAFiIZCCz8FS6eVO9HM0RDNdiTfFdui7M=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\makeup1.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\makeup2.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>BeautySalon</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BeautySalon</BasePath>
+      <RelativePath>images/makeup2.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>whuibl0g69</Fingerprint>
+      <Integrity>5MnEujdfWvwZDhOTNLIb6PzDIx226Sxo5Bx57nqrdWQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\makeup2.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\makeup3.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>BeautySalon</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BeautySalon</BasePath>
+      <RelativePath>images/makeup3.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>64zx47f82c</Fingerprint>
+      <Integrity>BiAvK5kEJHgtfRZQN2IAW9kk6tGZhqrS/vvo4lojTl0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\makeup3.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\makeup4.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>BeautySalon</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BeautySalon</BasePath>
+      <RelativePath>images/makeup4.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>c5fgo6s7d3</Fingerprint>
+      <Integrity>UN+6ZIjxBseiPpGBV9VQIG+j0nHWLjYbWBbxjpS5BzM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\makeup4.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\nails1.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>BeautySalon</SourceId>
@@ -246,8 +318,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>9v8lxupvls</Fingerprint>
-      <Integrity>JWkTCA+1B95XNVTCVC0G2sK9OWEEsnwOHkmtkAvz6gY=</Integrity>
+      <Fingerprint>ztplm2f2a0</Fingerprint>
+      <Integrity>+fveonb1SRLy+gzZXcHid4VJ0P+cZwtWhPy5tMWGfdk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\nails1.jpg'))</OriginalItemSpec>
@@ -264,8 +336,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>xy6b18mu9f</Fingerprint>
-      <Integrity>CZkie9p+zoxB79LsbMrPqO99a+xIH/ys4xud2w2BuJ0=</Integrity>
+      <Fingerprint>jn9mzes46x</Fingerprint>
+      <Integrity>oWpRRL7vewWzSyvl9AWFu20xo0fiNjBBaSS/xwERByQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\nails2.jpg'))</OriginalItemSpec>
@@ -282,8 +354,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>9n0e8k10t4</Fingerprint>
-      <Integrity>Ox2Y5iM8DZ2yAm2WAE66b4hJVZaOkZ3uckCyfXgTwws=</Integrity>
+      <Fingerprint>nbbuzo3ks7</Fingerprint>
+      <Integrity>0yf42tqEm1979e+bELix2l52sWq/Vu/fsjyiR50EXFk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\nails3.jpg'))</OriginalItemSpec>
@@ -300,8 +372,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ga9ywyakeh</Fingerprint>
-      <Integrity>iOvrEn9szGojO0AbrI/X/EK3AhS1XBI3hO7lbdn6Iuk=</Integrity>
+      <Fingerprint>q1vjpv8bk7</Fingerprint>
+      <Integrity>7vhdgMUL9yJ+WgLpY/eZXpGWfRZEDvR2/dJIp95ylWo=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\nails4.jpg'))</OriginalItemSpec>
@@ -372,11 +444,47 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>4qyxer3tte</Fingerprint>
-      <Integrity>DLh9tmhxc7pUjZ4NY8qMxScsTl6+UB5Mtf/rH8ReoHs=</Integrity>
+      <Fingerprint>m65543g3x4</Fingerprint>
+      <Integrity>ftk2J7drzmQBDgxAnxVQAP2ECsca/EArTyeclM1Y3sI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\salon1.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\salon2.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>BeautySalon</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BeautySalon</BasePath>
+      <RelativePath>images/salon2.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ip8qrvki43</Fingerprint>
+      <Integrity>arpxj1H5uAadkwj0xdwNPwB+ALm1zVExL4VwNz94nfU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\salon2.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\salon3.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>BeautySalon</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BeautySalon</BasePath>
+      <RelativePath>images/salon3.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>41i3rrxmrs</Fingerprint>
+      <Integrity>CFVrSFcaVrErB8V0d+AU1NxcaP1IVvbGaX8DKQLPSgk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\salon3.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))">
       <SourceType>Package</SourceType>

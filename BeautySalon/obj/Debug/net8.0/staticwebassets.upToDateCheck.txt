@@ -10,6 +10,10 @@ wwwroot\images\grim5.jpg
 wwwroot\images\grim6.jpg
 wwwroot\images\logo.jpg
 wwwroot\images\Logo2.png
+wwwroot\images\makeup1.jpg
+wwwroot\images\makeup2.jpg
+wwwroot\images\makeup3.jpg
+wwwroot\images\makeup4.jpg
 wwwroot\images\nails1.jpg
 wwwroot\images\nails2.jpg
 wwwroot\images\nails3.jpg
@@ -18,6 +22,8 @@ wwwroot\images\nails5.jpg
 wwwroot\images\nails6.jpg
 wwwroot\images\salon.jpg
 wwwroot\images\salon1.jpg
+wwwroot\images\salon2.jpg
+wwwroot\images\salon3.jpg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
