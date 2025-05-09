@@ -85,9 +85,19 @@ nav a {
 }
 
     .section h2 {
+        font-family:'Times New Roman', Times, serif;
         text-align: center;
         color: #7d5e7f;
+        font-style:italic;
     }
+h2 {
+    font-family: 'Times New Roman';
+    font-style: italic;
+    color: #7d5e7f;
+}
+h1{
+    font-style:italic;
+}
 .container h1 {
     color: #7d5e7f;
 }
