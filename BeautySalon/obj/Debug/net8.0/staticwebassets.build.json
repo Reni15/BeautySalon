@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4mle96t/0wGNocXJ8Hng1LgiAywp7fWd+NGsWGC6rH8=",
+  "Hash": "slf+zi1Civ73moupFXit6VIr9y+AUWXF9/iYM+qE1Ug=",
   "Source": "BeautySalon",
   "BasePath": "_content/BeautySalon",
   "Mode": "Default",
@@ -1333,8 +1333,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "aiotkk86hq",
-      "Integrity": "rnq+Ojlu20iQ0OYVq9AesQWAdszt6Y4O2GGD02mQoUM=",
+      "Fingerprint": "qeatt9j6eb",
+      "Integrity": "DnUmGh+uIbz4q2a7SNGI7OgLIqUtS0UiFVUKJ2aJSks=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -3249,51 +3249,6 @@
       ]
     },
     {
-      "Route": "css/site.aiotkk86hq.css",
-      "AssetFile": "C:\\Users\\Acer\\Desktop\\BeautySalon\\BeautySalon\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5189"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"rnq+Ojlu20iQ0OYVq9AesQWAdszt6Y4O2GGD02mQoUM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 10:52:08 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "aiotkk86hq"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-rnq+Ojlu20iQ0OYVq9AesQWAdszt6Y4O2GGD02mQoUM="
-        }
-      ]
-    },
-    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\Acer\\Desktop\\BeautySalon\\BeautySalon\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -3304,7 +3259,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5189"
+          "Value": "4932"
         },
         {
           "Name": "Content-Type",
@@ -3312,11 +3267,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"rnq+Ojlu20iQ0OYVq9AesQWAdszt6Y4O2GGD02mQoUM=\""
+          "Value": "\"DnUmGh+uIbz4q2a7SNGI7OgLIqUtS0UiFVUKJ2aJSks=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 10:52:08 GMT"
+          "Value": "Fri, 09 May 2025 11:10:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3326,7 +3281,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-rnq+Ojlu20iQ0OYVq9AesQWAdszt6Y4O2GGD02mQoUM="
+          "Value": "sha256-DnUmGh+uIbz4q2a7SNGI7OgLIqUtS0UiFVUKJ2aJSks="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.qeatt9j6eb.css",
+      "AssetFile": "C:\\Users\\Acer\\Desktop\\BeautySalon\\BeautySalon\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4932"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DnUmGh+uIbz4q2a7SNGI7OgLIqUtS0UiFVUKJ2aJSks=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 11:10:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qeatt9j6eb"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DnUmGh+uIbz4q2a7SNGI7OgLIqUtS0UiFVUKJ2aJSks="
         }
       ]
     },
