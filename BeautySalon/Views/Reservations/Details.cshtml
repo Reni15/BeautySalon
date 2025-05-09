@@ -4,35 +4,31 @@
     ViewData["Title"] = "Details";
 }
 
-<h1>Details</h1>
+<h1>Детайли</h1>
 
 <div>
-    <h4>Reservation</h4>
+    <h4>Резервации</h4>
     <hr />
     <dl class="row">
-        <dt class = "col-sm-2">
-@* @*             @Html.DisplayNameFor(model => model.Users) *@
-                <label>Потребител</label>
-         </dt>
-        <dd class = "col-sm-10">
+        <dt class="col-sm-2">
+            <label>Потребител</label>
+        </dt>
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Users.FirstName)
         </dd>
-        <dt class = "col-sm-2">
-@*             @Html.DisplayNameFor(model => model.Services)
- *@  
-                        <label>Услуга</label>
+        <dt class="col-sm-2">
+            <label>Услуга</label>
 
-</dt>
-        <dd class = "col-sm-10">
+        </dt>
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Services.Name)
         </dd>
-        <dt class = "col-sm-2">
-@*             @Html.DisplayNameFor(model => model.DateRegister)
- *@  
+        <dt class="col-sm-2">
+
             <label>Дата на резервация</label>
 
-</dt>
-        <dd class = "col-sm-10">
+        </dt>
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.DateRegister)
         </dd>
     </dl>
